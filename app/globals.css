@@ -41,10 +41,3 @@ p code {
 .result-block-container .result-block {
   opacity: 1;
 }
-
-@layer base {
-  html,
-  body {
-    @apply dark:bg-trueGray-900;
-  }
-}

@@ -1,8 +1,7 @@
 import React from 'react';
+import BrandingLogo from '../public/Assets/mjct-logo.png';
 
 const Footer = () => (
-
-
 
 <footer className="bg-white dark:bg-gray-900 px-12 py-16">
 
@@ -11,6 +10,7 @@ const Footer = () => (
       <div className="md:max-w-md text-start lg:col-span-3">
         <div className="grid">
           <a href="/">
+            <img src='../public/Assets/mjct-logo.png' className='w-14 h-auto' />
             {/* <Image src={Logo} alt="GDSC Logo" className="w-14 h-auto" /> */}
           </a>
           <span
@@ -22,7 +22,7 @@ const Footer = () => (
 
         <div className="mt-4 lg:max-w-sm">
           <p className="text-sm text-gray-700 dark:text-gray-300">
-            Together, we discover future.
+            Empowering Metro Manila's businesses through strategic advice and tax expertise.
           </p>
 
           <p className="mt-4 text-sm text-gray-700 dark:text-gray-300">
